@@ -39,5 +39,5 @@ jobs:
           # Upload entire repository
           path: 'front'
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v5
+  id: deployment
+  uses: actions/deploy-pages@v4
